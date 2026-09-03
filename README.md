@@ -27,9 +27,3 @@ As fotos dos cards são carregadas por URLs externas públicas. Se uma fonte alt
 - Cherki 2025/26: 52 aparições, 10 gols e 16 assistências segundo review do clube.
 
 Projeto não oficial para fins educacionais/portfólio.
-
-
-## Correção de mídia
-- As URLs das imagens foram atualizadas para nomes reais de arquivos do Wikimedia Commons.
-- O vídeo agora usa o ID direto do vídeo oficial do Manchester City no YouTube (`udjBvKOSJcE`), em vez de uma busca incorporada, que não funciona de forma confiável em iframe.
-- O projeto precisa de conexão com a internet para carregar as imagens externas, fontes do Google e o vídeo do YouTube.
