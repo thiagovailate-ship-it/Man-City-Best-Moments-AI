@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Fan page sobre o Manchester City, os Sky Blues: conquistas, estatísticas e momentos históricos." />
+  <title>Manchester City | Sky Blues</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="cursor-glow" id="cursorGlow"></div>
+  <header class="topbar" id="inicio">
+    <a class="brand" href="#inicio" aria-label="Voltar ao início">
+      <span class="brand-ball">⚽</span>
+      <span><strong>MANCHESTER</strong><small>CITY • SKY BLUES</small></span>
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menu">☰</button>
+    <nav id="navMenu">
+      <a href="#historia">Era de ouro</a>
+      <a href="#momentos">Momentos</a>
+      <a href="#jogadores">Jogadores</a>
+      <a href="#numeros">Números</a>
+      <a href="#video">Vídeo</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="floating-orb orb-1"></div>
+      <div class="floating-orb orb-2"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">MANCHESTER IS BLUE</p>
+        <h1>THE <span>SKY BLUES</span></h1>
+        <p class="hero-copy">Uma página celebrando a era que transformou o Manchester City em uma potência mundial: futebol dominante, gols, troféus e noites inesquecíveis.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#momentos">Ver conquistas</a>
+          <a class="btn ghost" href="#jogadores">Ver craques</a>
+        </div>
+      </div>
+      <div class="scroll-hint">SCROLL <span>↓</span></div>
+    </section>
+
+    <section class="section intro" id="historia">
+      <div class="section-heading reveal">
+        <p class="eyebrow">A ERA GUARDIOLA</p>
+        <h2>Quando o céu ficou <span>azul</span></h2>
+      </div>
+      <div class="intro-grid">
+        <article class="glass-card reveal">
+          <span class="big-number">2023</span>
+          <h3>A Tríplice Coroa</h3>
+          <p>Premier League, FA Cup e a primeira UEFA Champions League da história do clube em uma temporada lendária.</p>
+        </article>
+        <article class="glass-card reveal delay-1">
+          <span class="big-number">151</span>
+          <h3>Gols em 2022/23</h3>
+          <p>O City marcou 151 gols em todas as competições naquela temporada, média próxima de 2,5 por partida.</p>
+        </article>
+        <article class="glass-card reveal delay-2">
+          <span class="big-number">72%+</span>
+          <h3>Taxa de vitórias</h3>
+          <p>44 vitórias em 61 jogos durante a campanha da Tríplice, mantendo o estilo ofensivo e controlador do time de Guardiola.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section moments" id="momentos">
+      <div class="section-heading reveal">
+        <p class="eyebrow">NOITES INESQUECÍVEIS</p>
+        <h2>Melhores <span>momentos</span></h2>
+      </div>
+
+      <div class="moments-grid">
+        <article class="moment-card reveal featured" style="--bg:url('https://commons.wikimedia.org/wiki/Special:FilePath/Ederson%202023.jpg')">
+          <div class="moment-shade"></div>
+          <div class="moment-content"><span>ISTAMBUL • 2023</span><h3>UEFA Champions League</h3><p>Rodri marcou o gol que garantiu a primeira Champions League do Manchester City.</p></div>
+        </article>
+
+        <article class="moment-card reveal" style="--bg:url('https://commons.wikimedia.org/wiki/Special:FilePath/Manchester%20City%20trophy%20parade%20-%20geograph.org.uk%20-%204609574.jpg')">
+          <div class="moment-shade"></div>
+          <div class="moment-content"><span>INGLATERRA</span><h3>Premier League</h3><p>Domínio doméstico, recordes e uma sequência histórica de títulos na era Guardiola.</p></div>
+        </article>
+
+        <article class="moment-card reveal delay-1" style="--bg:url('https://commons.wikimedia.org/wiki/Special:FilePath/Club%20World%20Cup%20Trophy.png')">
+          <div class="moment-shade"></div>
+          <div class="moment-content"><span>JEDDAH • 2023</span><h3>Mundial de Clubes</h3><p>Vitória sobre o Fluminense na final e o título mundial para completar um ano extraordinário.</p></div>
+        </article>
+
+        <article class="moment-card reveal delay-2" style="--bg:url('https://commons.wikimedia.org/wiki/Special:FilePath/City%20vs%20United%20FA%20Cup%20final%202023.jpg')">
+          <div class="moment-shade"></div>
+          <div class="moment-content"><span>WEMBLEY • 2023</span><h3>FA Cup</h3><p>A vitória na final foi uma das peças fundamentais para a lendária Tríplice Coroa.</p></div>
+        </article>
+      </div>
+      <p class="media-note">As imagens são carregadas de fontes públicas externas. Caso alguma não carregue, o card mantém o visual em degradê.</p>
+    </section>
+
+    <section class="section players" id="jogadores">
+      <div class="section-heading reveal">
+        <p class="eyebrow">CRAQUES</p>
+        <h2>Ícones e a <span>nova geração</span></h2>
+        <p class="section-subtitle">Haaland e De Bruyne representam o auge da campanha 2022/23. Cherki chegou depois, então os números dele abaixo são da sua primeira temporada completa em sky blue.</p>
+      </div>
+
+      <div class="player-tabs reveal" role="tablist">
+        <button class="tab active" data-player="haaland">Haaland</button>
+        <button class="tab" data-player="debruyne">De Bruyne</button>
+        <button class="tab" data-player="cherki">Cherki</button>
+      </div>
+
+      <div class="player-panel reveal" id="playerPanel">
+        <div class="player-visual haaland" id="playerVisual"><span class="shirt-number" id="shirtNumber">9</span></div>
+        <div class="player-info">
+          <p class="eyebrow" id="playerEra">2022/23 • TRÍPLICE COROA</p>
+          <h3 id="playerName">Erling Haaland</h3>
+          <p id="playerBio">Uma primeira temporada absurda: potência, velocidade e um recorde atrás do outro.</p>
+          <div class="stats" id="playerStats">
+            <div><strong data-target="53">0</strong><span>Jogos</span></div>
+            <div><strong data-target="52">0</strong><span>Gols</span></div>
+            <div><strong data-target="9">0</strong><span>Assistências</span></div>
+            <div><strong data-target="36">0</strong><span>Gols na PL</span></div>
+          </div>
+          <div class="mini-bar"><span id="playerBar"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section numbers" id="numeros">
+      <div class="section-heading reveal">
+        <p class="eyebrow">2022/23</p>
+        <h2>A temporada em <span>números</span></h2>
+      </div>
+      <div class="number-grid">
+        <div class="counter-card reveal"><strong class="counter" data-target="61">0</strong><span>Jogos</span></div>
+        <div class="counter-card reveal delay-1"><strong class="counter" data-target="44">0</strong><span>Vitórias</span></div>
+        <div class="counter-card reveal delay-2"><strong class="counter" data-target="151">0</strong><span>Gols</span></div>
+        <div class="counter-card reveal"><strong class="counter" data-target="27">0</strong><span>Clean sheets</span></div>
+        <div class="counter-card reveal delay-1"><strong class="counter" data-target="28">0</strong><span>Vitórias na PL</span></div>
+        <div class="counter-card reveal delay-2"><strong class="counter" data-target="25">0</strong><span>Jogos invicto</span></div>
+      </div>
+    </section>
+
+    <section class="section video-section" id="video">
+      <div class="section-heading reveal">
+        <p class="eyebrow">CITYTV</p>
+        <h2>Reviva a <span>história</span></h2>
+        <p class="section-subtitle">Vídeo oficial do Manchester City com os 52 gols de Haaland em 2022/23.</p>
+      </div>
+      <div class="video-card reveal">
+        <iframe src="https://www.youtube.com/watch?v=DxheG4fbBxI" title="ALL 52 ERLING HAALAND GOALS! Man City Season 2022/23" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      </div>
+      <a class="btn primary external-video" href="https://www.mancity.com/citytv/mens/erling-haaland-manchester-city-goals-2022-2023-63816903" target="_blank" rel="noopener">Abrir vídeo oficial no ManCity.com ↗</a>
+    </section>
+  </main>
+
+  <footer>
+    <div><strong>MANCHESTER CITY</strong><span>Fan project • HTML / CSS / JavaScript</span></div>
+    <p>Esta página é um projeto não oficial criado para fins educacionais e de portfólio.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
