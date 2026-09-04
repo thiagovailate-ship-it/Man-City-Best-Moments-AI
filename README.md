@@ -2,6 +2,8 @@
 
 Site estático de fã sobre o **Manchester City**: a origem do clube (1880), a **Tríplice Coroa de 2023** e as estatísticas de **Erling Haaland** e **Kevin De Bruyne** — com animações, UI moderna e fotos reais do clube.
 
+> © Thiago Vailate — todos os direitos reservados.
+
 ## Como abrir
 
 Basta abrir `index.html` no navegador (duplo clique), ou, para servir localmente:
